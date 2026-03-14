@@ -6,9 +6,8 @@ const config = {
   tagline: 'Cloud-native simulation for nanophotonics and meta-optics',
   favicon: 'img/favicon.ico',
 
-  // For custom domain: url: 'https://docs.metosim.com', baseUrl: '/'
-  url: 'https://timetravel1408.github.io',
-  baseUrl: '/metosim-docs/',
+  url: 'https://docs.metosim.com',
+  baseUrl: '/',
 
   organizationName: 'timetravel1408',
   projectName: 'metosim-docs',
