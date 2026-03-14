@@ -99,7 +99,7 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'Introduction', to: '/introduction' },
+              { label: 'Introduction', to: '/' },
               { label: 'Quick Start', to: '/quickstart' },
               { label: 'API Reference', to: '/api/overview' },
             ],

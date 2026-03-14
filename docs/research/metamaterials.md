@@ -37,7 +37,7 @@ Metal nanoparticles and nano-antennas that support surface plasmon resonances �
 
 ### Metalenses
 
-Flat lenses using metasurface phase profiles. Replace curved glass with a single patterned surface <1 μm thick. Applications in smartphone cameras, AR/VR optics, microscopy, and LIDAR.
+Flat lenses using metasurface phase profiles. Replace curved glass with a single patterned surface under 1 μm thick. Applications in smartphone cameras, AR/VR optics, microscopy, and LIDAR.
 
 ### Optical computing
 
