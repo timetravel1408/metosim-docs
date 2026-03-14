@@ -1,0 +1,121 @@
+:root {
+  --ifm-color-primary: #00d4ff;
+  --ifm-color-primary-dark: #00bfe6;
+  --ifm-color-primary-darker: #00b4d9;
+  --ifm-color-primary-darkest: #0094b3;
+  --ifm-color-primary-light: #1ad9ff;
+  --ifm-color-primary-lighter: #33ddff;
+  --ifm-color-primary-lightest: #66e7ff;
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', monospace;
+  --ifm-code-font-size: 90%;
+
+  --ifm-heading-font-weight: 600;
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: #0c1018;
+  --ifm-background-surface-color: #111824;
+  --ifm-color-primary: #00d4ff;
+  --ifm-color-primary-dark: #00bfe6;
+  --ifm-color-primary-darker: #00b4d9;
+  --ifm-color-primary-darkest: #0094b3;
+  --ifm-color-primary-light: #1ad9ff;
+  --ifm-color-primary-lighter: #33ddff;
+  --ifm-color-primary-lightest: #66e7ff;
+  --ifm-navbar-background-color: #0c1018;
+  --ifm-footer-background-color: #06080d;
+  --ifm-card-background-color: #111824;
+}
+
+/* Navbar CTA button */
+.navbar-cta {
+  background: var(--ifm-color-primary);
+  color: #0c1018 !important;
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.navbar-cta:hover {
+  background: #33ddff;
+  color: #0c1018 !important;
+  text-decoration: none;
+}
+
+/* Code blocks */
+.prism-code {
+  border: 1px solid #1e2a3a;
+}
+
+[data-theme='dark'] .prism-code {
+  background: #0c1018 !important;
+}
+
+/* Table styling */
+table {
+  display: table;
+  width: 100%;
+}
+
+table th {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+/* Admonition customization */
+.alert--info {
+  --ifm-alert-background-color: rgba(0, 212, 255, 0.08);
+  --ifm-alert-border-color: #00d4ff;
+}
+
+.alert--warning {
+  --ifm-alert-background-color: rgba(255, 107, 53, 0.08);
+  --ifm-alert-border-color: #ff6b35;
+}
+
+/* Hero section for intro page */
+.hero-banner {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-banner p {
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Feature cards */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  transition: border-color 0.2s;
+}
+
+.feature-card:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.feature-card h3 {
+  margin-top: 0.5rem;
+}
